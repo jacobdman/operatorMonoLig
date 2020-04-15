@@ -1,0 +1,20 @@
+<Glyph name="less_equal_equal.liga" lsb="-1012" width="550">
+    <CharString>
+        151 69 153 69 hstemhm
+        -1014 1486 -1484 424 hintmask 11100000
+        -827 373 rmoveto
+        1341 hlineto
+        15 69 rlineto
+        -1256 hlineto
+        hintmask 11010000
+        139 96 -34 61 -378 -263 -12 -67 279 -288 54 53 -116 117 rlineto
+        hintmask 11100000
+        1266 hlineto
+        14 69 rlineto
+        -1349 hlineto
+        -70 71 2 10 rlineto
+        endchar
+    </CharString>
+    <Subrs/>
+    <GlobalSubrs/>
+</Glyph>

@@ -1,0 +1,14 @@
+<Glyph name="bar_bar.liga" lsb="-315" width="625">
+    <CharString>
+        -315 256 129 256 vstem
+        -59 781 rmoveto
+        -65 -2 -191 -979 rlineto
+        66 hlineto
+        575 981 rmoveto
+        -65 -2 -191 -979 rlineto
+        66 hlineto
+        endchar
+    </CharString>
+    <Subrs/>
+    <GlobalSubrs/>
+</Glyph>

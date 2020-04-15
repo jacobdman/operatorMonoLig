@@ -1,0 +1,15 @@
+<Glyph name="equal_equal_equal.liga" lsb="-1163" width="625">
+    <CharString>
+        38 104 140 104 140 104 hstem
+        -1163 1701 cntrmask 11100000
+        538 526 rmoveto
+        104 -1701 -104 vlineto
+        1701 -244 rmoveto
+        104 -1701 -104 vlineto
+        1701 -244 rmoveto
+        104 -1701 -104 vlineto
+        endchar
+    </CharString>
+    <Subrs/>
+    <GlobalSubrs/>
+</Glyph>
