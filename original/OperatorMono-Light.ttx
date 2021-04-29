@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="OTTO" ttLibVersion="4.2">
+<ttFont sfntVersion="OTTO" ttLibVersion="4.22">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -8285,7 +8285,7 @@
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
         <PairPos index="0" Format="2">
-          <Coverage Format="2">
+          <Coverage>
             <Glyph value="fraction.afrc"/>
             <Glyph value="zero.num"/>
             <Glyph value="one.num"/>
@@ -8300,7 +8300,7 @@
           </Coverage>
           <ValueFormat1 value="4"/>
           <ValueFormat2 value="0"/>
-          <ClassDef1 Format="2">
+          <ClassDef1>
             <ClassDef glyph="eight.num" class="1"/>
             <ClassDef glyph="five.num" class="1"/>
             <ClassDef glyph="four.num" class="1"/>
@@ -8312,7 +8312,7 @@
             <ClassDef glyph="two.num" class="1"/>
             <ClassDef glyph="zero.num" class="1"/>
           </ClassDef1>
-          <ClassDef2 Format="2">
+          <ClassDef2>
             <ClassDef glyph="eight.den" class="1"/>
             <ClassDef glyph="five.den" class="1"/>
             <ClassDef glyph="four.den" class="1"/>
@@ -8925,7 +8925,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="asterisk" out="asterisk.alt"/>
           <Substitution in="bullet" out="bullet.alt"/>
           <Substitution in="colon" out="colon.alt"/>
@@ -8938,7 +8938,7 @@
         <LookupType value="3"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <AlternateSubst index="0" Format="1">
+        <AlternateSubst index="0">
           <AlternateSet glyph="eight">
             <Alternate glyph="eight.den"/>
             <Alternate glyph="eight.num"/>
@@ -9009,14 +9009,14 @@
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=2 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="l"/>
           </InputCoverage>
-          <InputCoverage index="1" Format="1">
+          <InputCoverage index="1">
             <Glyph value="periodcentered"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="1">
+          <LookAheadCoverage index="0">
             <Glyph value="l"/>
           </LookAheadCoverage>
           <!-- SubstCount=1 -->
@@ -9028,14 +9028,14 @@
         <ChainContextSubst index="1" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=2 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="L"/>
           </InputCoverage>
-          <InputCoverage index="1" Format="1">
+          <InputCoverage index="1">
             <Glyph value="periodcentered"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="1">
+          <LookAheadCoverage index="0">
             <Glyph value="L"/>
           </LookAheadCoverage>
           <!-- SubstCount=1 -->
@@ -9049,7 +9049,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="braceleft" out="braceleft.cap"/>
           <Substitution in="braceright" out="braceright.cap"/>
           <Substitution in="bracketleft" out="bracketleft.cap"/>
@@ -9066,7 +9066,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.den"/>
           <Substitution in="five" out="five.den"/>
           <Substitution in="four" out="four.den"/>
@@ -9083,7 +9083,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.num"/>
           <Substitution in="five" out="five.num"/>
           <Substitution in="four" out="four.num"/>
@@ -9100,7 +9100,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.inf"/>
           <Substitution in="five" out="five.inf"/>
           <Substitution in="four" out="four.inf"/>
@@ -9117,7 +9117,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.inf"/>
           <Substitution in="five" out="five.inf"/>
           <Substitution in="four" out="four.inf"/>
@@ -9134,7 +9134,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.sup"/>
           <Substitution in="five" out="five.sup"/>
           <Substitution in="four" out="four.sup"/>
@@ -9153,7 +9153,7 @@
         <!-- SubTableCount=1 -->
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="2">
+          <BacktrackCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9166,11 +9166,11 @@
             <Glyph value="nine"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="slash"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="2">
+          <LookAheadCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9195,7 +9195,7 @@
         <!-- SubTableCount=3 -->
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=2 -->
-          <BacktrackCoverage index="0" Format="2">
+          <BacktrackCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9227,7 +9227,7 @@
             <Glyph value="eight.den"/>
             <Glyph value="nine.den"/>
           </BacktrackCoverage>
-          <BacktrackCoverage index="1" Format="2">
+          <BacktrackCoverage index="1">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9260,7 +9260,7 @@
             <Glyph value="nine.den"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="fraction"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=0 -->
@@ -9269,11 +9269,11 @@
         <ChainContextSubst index="1" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="fraction"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=2 -->
-          <LookAheadCoverage index="0" Format="2">
+          <LookAheadCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9305,7 +9305,7 @@
             <Glyph value="eight.den"/>
             <Glyph value="nine.den"/>
           </LookAheadCoverage>
-          <LookAheadCoverage index="1" Format="2">
+          <LookAheadCoverage index="1">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9341,7 +9341,7 @@
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
           <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="2">
+          <BacktrackCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9374,11 +9374,11 @@
             <Glyph value="nine.den"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="fraction"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="2">
+          <LookAheadCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9424,7 +9424,7 @@
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=0 -->
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="2">
+          <InputCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9437,7 +9437,7 @@
             <Glyph value="nine"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="1">
+          <LookAheadCoverage index="0">
             <Glyph value="fraction.afrc"/>
           </LookAheadCoverage>
           <!-- SubstCount=1 -->
@@ -9448,11 +9448,11 @@
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
           <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="1">
+          <BacktrackCoverage index="0">
             <Glyph value="fraction.afrc"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="2">
+          <InputCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9476,7 +9476,7 @@
         <LookupType value="4"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <LigatureSubst index="0" Format="1">
+        <LigatureSubst index="0">
           <LigatureSet glyph="five.num">
             <Ligature components="fraction.afrc,six.den" glyph="fivesixths"/>
             <Ligature components="fraction.afrc,eight.den" glyph="fiveeighths"/>
@@ -9510,7 +9510,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="registered" out="registered.alt"/>
         </SingleSubst>
       </Lookup>
@@ -9518,7 +9518,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="colon" out="colon.alt"/>
         </SingleSubst>
       </Lookup>
@@ -9526,7 +9526,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="bullet" out="bullet.alt"/>
         </SingleSubst>
       </Lookup>
@@ -9534,7 +9534,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="asterisk" out="asterisk.alt"/>
         </SingleSubst>
       </Lookup>
@@ -9542,7 +9542,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="zero" out="zero.alt"/>
         </SingleSubst>
       </Lookup>
@@ -9550,7 +9550,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="1">
+        <SingleSubst index="0">
           <Substitution in="underscore" out="underscore.alt"/>
         </SingleSubst>
       </Lookup>
@@ -9560,7 +9560,7 @@
         <!-- SubTableCount=1 -->
         <ChainContextSubst index="0" Format="3">
           <!-- BacktrackGlyphCount=1 -->
-          <BacktrackCoverage index="0" Format="2">
+          <BacktrackCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9593,11 +9593,11 @@
             <Glyph value="nine.den"/>
           </BacktrackCoverage>
           <!-- InputGlyphCount=1 -->
-          <InputCoverage index="0" Format="1">
+          <InputCoverage index="0">
             <Glyph value="slash"/>
           </InputCoverage>
           <!-- LookAheadGlyphCount=1 -->
-          <LookAheadCoverage index="0" Format="2">
+          <LookAheadCoverage index="0">
             <Glyph value="zero"/>
             <Glyph value="one"/>
             <Glyph value="two"/>
@@ -9640,7 +9640,7 @@
         <LookupType value="4"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <LigatureSubst index="0" Format="1">
+        <LigatureSubst index="0">
           <LigatureSet glyph="R">
             <Ligature components="p" glyph="R_p"/>
           </LigatureSet>
@@ -9650,7 +9650,7 @@
         <LookupType value="4"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <LigatureSubst index="0" Format="1">
+        <LigatureSubst index="0">
           <LigatureSet glyph="L">
             <Ligature components="periodcentered" glyph="Ldot"/>
           </LigatureSet>
@@ -9663,7 +9663,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.num"/>
           <Substitution in="five" out="five.num"/>
           <Substitution in="four" out="four.num"/>
@@ -9682,7 +9682,7 @@
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <SingleSubst index="0" Format="2">
+        <SingleSubst index="0">
           <Substitution in="eight" out="eight.den"/>
           <Substitution in="five" out="five.den"/>
           <Substitution in="four" out="four.den"/>
